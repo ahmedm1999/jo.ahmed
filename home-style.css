@@ -1,0 +1,48 @@
+html body
+{
+	margin: 0px ;
+	padding: 0px;
+	font-family: tahoma ;
+}
+/*Nvigation Bar*/
+.navbar .navbar-brand
+{
+	color: #ffffdd;
+	font-weight: bolder ;
+	letter-spacing: 3px ;
+	text-transform: uppercase;
+}
+.navbar .navbar-nav .nav-item .nav-link
+{
+	font-weight: 400 ;
+}
+/*/Navigation Bar*/
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-inner .carousel-item .thank-text h1 strong 
+{
+	color: #ffffdd ;
+	text-shadow: 2px 2px #3b6978;
+}
+.carousel-inner .carousel-item .thank-text h4 strong
+{
+	color: #3b6978;
+	font-weight: bold;
+}
+.header-cont
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.carousel-item .mt
+{
+	margin-top: 10rem;
+}
